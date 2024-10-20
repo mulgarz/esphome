@@ -111,5 +111,6 @@ async def to_code(config):
     cg.add_library(
         name="ESP32-audioI2S",
         repository="https://github.com/mulgarz/ESP32-audioI2S.git",
+        version=None
     )
     cg.add_build_flag("-DAUDIO_NO_SD_FS")
